@@ -43,7 +43,6 @@ void draw() {
   //draw button
   for (int by = 0; by < height; by += 2*h) {
     for (int bx = 0; bx < width; bx += 2*w) {
-      
       int state = checkStates(bx, by, w, h);
       println(state);
 
