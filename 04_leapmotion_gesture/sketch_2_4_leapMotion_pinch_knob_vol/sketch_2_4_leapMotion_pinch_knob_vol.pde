@@ -17,28 +17,21 @@ void setup() {
 void draw() {
   LeapRun();
   background(0);
-
-
   //caculate
   PVector finger1 = new PVector(finger1X, finger1Y);
   PVector finger2 = new PVector(finger2X, finger2Y);
-
   PVector dist = PVector.sub(finger1, finger2);
-
   //stablize
   dist.normalize();
   dist.mult(100);
-
   //get angle
   float angle = dist.heading();
-
   float dAngle;
   if (angle<0) {
     dAngle = angle + 2*PI;
   } else {
     dAngle = angle;
   }
-
   pushMatrix();
   translate(width/2, height/2);
   fill(255, 15);
@@ -48,7 +41,6 @@ void draw() {
   fill(0, 100);
   arc(0, 0, 80, 80, 0, dAngle);
   ellipse(0, 0, 40, 40);
-  
   dAngle = map(dAngle, 0, 360, 0, 100);
   fill(199);
   textSize(20);

@@ -45,6 +45,7 @@ void draw() {
 }
 
 void onPinch() {
+  
 }
 
 void offPinch() {

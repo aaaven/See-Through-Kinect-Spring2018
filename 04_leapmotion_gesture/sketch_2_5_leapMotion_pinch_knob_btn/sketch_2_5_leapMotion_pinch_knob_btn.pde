@@ -82,8 +82,9 @@ void draw() {
   arc(0, 0, 100, 100, 0, dAngle);
   fill(0, 100);
   arc(0, 0, 80, 80, 0, dAngle);
+  fill(clr);
   ellipse(0, 0, 40, 40);
-  //dAngle = map(dAngle, 0, 360, 0, 100);
+  dAngle = map(dAngle, 0, 360, 0, 100);
   fill(199);
   textSize(20);
   int textAngle = round(degrees(dAngle));
