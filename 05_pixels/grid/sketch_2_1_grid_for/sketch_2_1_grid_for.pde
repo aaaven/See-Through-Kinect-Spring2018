@@ -42,7 +42,10 @@ void draw() {
       int px = int(x*gridX);
       int py = int(y*gridY);
       fill(colors[index]);
+      //float dist = dist(px, py, width/2, height/2);
+      //if (dist%30 < 20)rect(px, py, gridX, gridY);
       rect(px, py, gridX, gridY);
-    }
+     
+  }
   }
 }
