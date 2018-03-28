@@ -1,6 +1,6 @@
-//Aven,03/04/2017
-//Interactive Installation
-//New Media, WPP, SADA
+//Aven, See Through Kinect, Spring 2018
+//http://aven.cc
+//https://github.com/aaaven/STK2018/wiki/
 
 import controlP5.*;
 ControlP5 cp5;
