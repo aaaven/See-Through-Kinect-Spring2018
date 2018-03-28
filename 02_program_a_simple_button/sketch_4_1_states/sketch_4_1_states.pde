@@ -1,5 +1,5 @@
 //Aven, See Through Kinect, Spring 2018
-//https://github.com/aaaven/STK2018/wiki/brn_states
+//https://github.com/aaaven/STK2018/wiki/btn_states
 
 color buttonColor = color(100);
 float bx, by, w, h;
