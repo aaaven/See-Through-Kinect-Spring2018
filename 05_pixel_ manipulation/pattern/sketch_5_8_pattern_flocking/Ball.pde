@@ -70,7 +70,7 @@ class Ball {
     separate(sepatateMagnitude, others);
     cohesion(cohesionMagnitude, others);
     align(alignMagnitude, others);
-    //lineBetween(others);
+    lineBetween(others);
   }
 
   void separate(float magnitude, ArrayList others) {

@@ -39,7 +39,9 @@ void draw() {
       }
       d /= points.length;
       int index = y*width + x;
-      if (floor(d * 15+ frameCount * 0.1) % 7 == 0) updateImg.pixels[index] = img.pixels[index];
+      if (floor(d * 15+ frameCount * 0.1) % 7 == 0){
+        updateImg.pixels[index] = img.pixels[index];
+      }
       //pixels[index] = floor(d * 15+ frameCount * 0.1) % 7 == 0 ? #FF2CD2 : #21073E;
     }
   }

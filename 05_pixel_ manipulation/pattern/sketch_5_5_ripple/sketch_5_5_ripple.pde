@@ -3,7 +3,6 @@
 //https://github.com/aaaven/STK2018/wiki/
 
 PVector[] points;
-
 void setup() {
   size(800, 800);
   //initilize points
@@ -26,7 +25,7 @@ void draw() {
       d /= points.length;
       int index = y*width + x;
       if (floor(d * 15+ frameCount * 0.1) % 7 == 0) pixels[index] = #FF2CD2;
-      else pixels[index] = #21073E;
+      //else pixels[index] = #21073E;
       //pixels[index] = floor(d * 15+ frameCount * 0.1) % 7 == 0 ? #FF2CD2 : #21073E;
     }
   }
@@ -34,7 +33,7 @@ void draw() {
 
   for (int i = 0; i < points.length; i++) {
     points[i].set(
-      mouseX/2 + width/2 + width/2 * sin(frameCount*i*0.0011) * sin(frameCount*i*0.0017), 
+      mouseX/2 + width/2 * sin(frameCount*i*0.0011) * sin(frameCount*i*0.0017), 
       mouseY/2 + height/2 * sin(frameCount*i*0.0013) * sin(frameCount*i*0.0019));
   }
 }

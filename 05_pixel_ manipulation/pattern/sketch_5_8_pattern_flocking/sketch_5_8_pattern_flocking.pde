@@ -16,7 +16,7 @@ void setup() {
   //  Vec3D startPoint = new Vec3D (random(0, bw), random(0, bh), 0);
   //  balls.add(new Ball(startPoint));
   //}
-  int grid = 10;
+  int grid = 20;
   for (int j = 0; j < bh; j += grid) {
     for (int i  = 0; i < bw; i += grid) {
       int index = j*bw + i;
