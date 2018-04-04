@@ -2,7 +2,7 @@
 color[] getColors(int w, int h, String fileName) {//"1.jpg"
 
   PImage img = loadImage(fileName);
-  //img.resize(w, h);
+  img.resize(w, h);
   color[] _colors = new color[w*h];
 
   img.loadPixels();
