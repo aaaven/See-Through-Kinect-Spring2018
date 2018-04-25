@@ -19,12 +19,12 @@ void draw() {
   //drawing demo with pixels array
   int w = cam.width;
   int h = cam.height;
-  int s = 10;
+  int s = 20;
   for (int y = 0; y < h; y+= s) {
     for (int x = 0; x < w; x+= s) {
       int index =  x + y*w;    
       fill(cam.pixels[index]);
-      ellipse(x,y,0.8*s,0.8*s);
+      ellipse(x,y,s,s);
     }
   }
   

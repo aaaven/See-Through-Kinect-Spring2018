@@ -4,7 +4,7 @@
 ###### @上海工艺美院，WPP学院，新媒体系
 
 ## Key Info
-* by [Aven Le Zhou](https://www.aven.cc), adjunct professor
+* by [Aven Le Zhou](http://www.aven.cc), adjunct professor
 
 * Wednesday,14:00pm-17:00pm
 
